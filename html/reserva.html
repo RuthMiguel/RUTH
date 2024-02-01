@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/reserva.css">
+    <title>Reserva de Restaurante</title>
+</head>
+<body>
+
+    <nav>
+        <ul>
+           <div class="nav">
+          <a href="#">Malibu</a>
+          <a href="home.html">Home</a>
+          <a href="sobre.html">Sobre</a>
+          <a href="menu.html">Menu</a>
+          <a href="reserva.html"> Reserva</a>
+          <a href="conctatos.html">Conctatos</a>
+          
+           </div>
+        </ul>
+      </nav>
+
+
+
+
+<div class="container">
+    <form id="reservationForm" onsubmit="submitForm(event)">
+        <h2>Faça sua Reserva</h2>
+
+        <label for="name">Nome Completo:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Telefone:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="date">Data:</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="time">Horário:</label>
+        <input type="time" id="time" name="time" required>
+
+        <label for="guests">Número de Convidados:</label>
+        <input type="number" id="guests" name="guests" min="1" required>
+
+        <button type="submit">Enviar Reserva</button>
+    </form>
+</div>
+
+<script src="script.js"></script>
+<footer>
+
+    <div class="container">
+      <h2>Restaurante Malibu Luanda, 2024</h2>
+     <div class="socialMedia">
+       <a href="https://www.facebook.com/seu-usuario" target="_blank"><i class="fab fa-facebook"></i></a>
+       <a href="https://www.instagram.com/seu-usuario" target="_blank"><i class="fab fa-instagram"></i></a>
+       <a href="https://twitter.com/seu-usuario" target="_blank"><i class="fab fa-twitter"></i></a>
+       <a href="https://api.whatsapp.com/send?phone=SEUNUMERO" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    </div> 
+</div>
+</footer>
+</body>
+</html>

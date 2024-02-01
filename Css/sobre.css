@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 99%;
+    height: 97%;
+    background-image: url(../imagens/papel1.png);
+    background-size: cover;
+    border: 0;
+   
+}
+.nav {
+  position: relative;
+  float: left;
+
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 40px; 
+  
+}
+
+
+a{
+  padding: 5px 15px;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+a:hover{
+  background-color: #555;        
+}
+
+
+h1 {
+    color:black;
+    align-items: center;
+  }
+
+  section {
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    float: right;
+ 
+  } 
+  section {
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    float: right;
+ 
+  } 
+  
+  h2 {
+  
+    color:black;
+    font-size: 24px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: cover;
+    align-items: cover;
+    border-radius: 40px;
+    background-image: url(../imagens/comida4.jpg);
+    background-size: cover;
+    
+    
+  }
+
+  p {
+    height: 20px;
+    width: 500px;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: cover;
+    align-items: cover;
+    border-radius: 40px;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: auto;
+}
+.socialMedia {
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.socialMedia a {
+    margin-left: 10px; 
+    color:white; 
+    text-decoration: none; 
+}
+
+.socialMedia a:hover {
+    color: #007bff; 
+}
+

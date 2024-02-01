@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: white;
+    }
+    .nav {
+      position: relative;
+      
+  }
+    
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      font-size: 40px; 
+    }
+    
+  
+    a{
+      padding: 5px 15px;
+      color: black;
+      font-size: 20px;
+      text-decoration: none;
+  }
+  a:hover{
+  
+      background-color: #555;       
+  }
+  
+  header {
+      background-color: white;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    #entradas{
+      height: 500px;
+      width: 300px;
+      text-align: center;
+      background-image: url(../imagens/comida7.jpg);
+      box-shadow: 0 4px 8px rgb(22, 22, 22);
+      float: left;
+      border-radius: 40px;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 10px;
+      align-items: center;
+      
+    }
+    #Patros{
+      height: 500px;
+      width: 350px;
+      background-image: url(../imagens/comida2.jpg);
+      box-shadow: 0 4px 8px rgb(22, 22, 22);
+      float: left;
+      text-align: center;
+      border-radius: 40px;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 10px;
+      align-items: center;
+      
+      
+    }
+    #Sobremesas{
+      height: 500px;
+      width: 300px;
+      background-image: url(../imagens/sobremesa1.jpg);
+      box-shadow: 0 4px 8px rgb(22, 22, 22);
+      float: right;
+      text-align: center;
+      border-radius: 40px;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 10px;
+    }
+  
+  #Bebidas{
+    height: 500px;
+    width: 350px;
+    background-image: url(../imagens/bebiba1.jpg);
+    box-shadow: 0 4px 8px rgb(22, 22, 22);
+    float: left;
+    text-align: center;
+    border-radius: 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: auto;
+}
+.socialMedia {
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.socialMedia a {
+    margin-left: 10px; 
+    color:white; 
+    text-decoration: none; 
+}
+
+.socialMedia a:hover {
+    color: #007bff; 
+}

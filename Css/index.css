@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../imagens/papel1.png);
+    background-size: cover;
+}
+
+
+.nav {
+    position: relative;
+    
+}
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 40px; 
+  }
+  
+
+  a{
+    padding: 5px 15px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+a:hover{
+
+    background-color: #555;       
+}
+  
+
+.heading{
+   
+    display: flex;
+    justify-content: space-evenly;
+    padding-top:  65px;
+    align-items: center;
+}
+
+.rigth{
+    width: 300px;  
+    height: 300px;
+    background-image: url(../imagens/comida1.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+.rigth::before{
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+    content: '';
+    position: absolute;
+    border-radius: 200px;
+   
+}
+
+.left p:nth-child(1){
+    color: white;
+    font-size: 3px;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+.left h1 {
+    font-size: 50px;
+    color: rgb(13, 13, 14);
+    float: right;
+}
+.left p:nth-child(3){
+    color:rgb(12, 12, 12);
+     font-size: 30px;
+     font-style: italic;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: auto;
+}
+.socialMedia {
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.socialMedia a {
+    margin-left: 10px; 
+    color:white; 
+    text-decoration: none; 
+}
+
+.socialMedia a:hover {
+    color: #007bff; 
+}
